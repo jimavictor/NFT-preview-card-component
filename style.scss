@@ -1,0 +1,105 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(217, 54%, 11%);
+  padding: 300px 200px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 360px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: hsl(216, 50%, 16%);
+}
+.upper-div {
+  min-width: 320px;
+  min-height: 270px;
+  background: url("./images/image-equilibrium.jpg");
+  background-size: cover;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+header {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 15px;
+}
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+p {
+  color: hsl(215, 51%, 70%);
+}
+.lower-div {
+  min-width: 320px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: transparent;
+}
+.overlay:hover {
+  background: url("./images/icon-view.svg");
+  background-color: hsla(178, 100%, 50%, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.coin-stat,
+.time-stat {
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.coin-stat > p {
+  color: hsl(178, 100%, 50%);
+}
+hr {
+  margin: 10px 0px;
+  color: hsl(215, 32%, 27%);
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile > img {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+#name {
+  color: hsl(0, 0%, 100%);
+}
+#name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.attribution > p {
+  width: 100%;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+}
